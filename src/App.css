@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;  
+}
+
+label {
+  font-size: .8rem;
+  font-weight: bold;
+}
+
+.error {
+  position: absolute;
+  color: red;
+  font-size: .6rem;
+}
+.bg-purple{
+  background-color: #8667F0;
+}
+input.brd{
+  height: 3rem;
+  border-radius: 50px;
+  background-color: black;
+  border:.1px solid #8667F0;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+button.brd{
+  border: 1px solid #8667F0;
+  border-radius: 50px;
+  background-color: #8667F0;
+}
+button.brd:hover{ 
+  background-color: #8667F0;
+}
+button.btn-outline-light{
+  border-radius: 50px;
+  border: none;
+}
+button.btn-outline-light:hover{
+  background-color: #8667F0;
+  color: white;
+}
+input.brd:focus{  
+  background-color: transparent;  
+}
+.gradient{
+  height: 80px;
+  border-radius: 6px;
+  background: rgba(0,159,227,1);
+  background: -moz-linear-gradient(left, rgba(0,159,227,1) 0%, rgba(0,156,61,1) 22%, rgba(152,194,29,1) 46%, rgba(243,201,3,1) 72%, rgba(254,202,0,1) 75%, rgba(215,99,40,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,159,227,1)), color-stop(22%, rgba(0,156,61,1)), color-stop(46%, rgba(152,194,29,1)), color-stop(72%, rgba(243,201,3,1)), color-stop(75%, rgba(254,202,0,1)), color-stop(100%, rgba(215,99,40,1)));
+  background: -webkit-linear-gradient(left, rgba(0,159,227,1) 0%, rgba(0,156,61,1) 22%, rgba(152,194,29,1) 46%, rgba(243,201,3,1) 72%, rgba(254,202,0,1) 75%, rgba(215,99,40,1) 100%);
+  background: -o-linear-gradient(left, rgba(0,159,227,1) 0%, rgba(0,156,61,1) 22%, rgba(152,194,29,1) 46%, rgba(243,201,3,1) 72%, rgba(254,202,0,1) 75%, rgba(215,99,40,1) 100%);
+  background: -ms-linear-gradient(left, rgba(0,159,227,1) 0%, rgba(0,156,61,1) 22%, rgba(152,194,29,1) 46%, rgba(243,201,3,1) 72%, rgba(254,202,0,1) 75%, rgba(215,99,40,1) 100%);
+  background: linear-gradient(to right, rgba(0,159,227,1) 0%, rgba(0,156,61,1) 23%, rgba(152,194,29,1) 50%, rgba(243,201,3,1) 72%, rgba(254,202,0,1) 72%, rgba(215,99,40,1) 89%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009fe3', endColorstr='#d76328', GradientType=1 );
+}
+.container-cd{
+  padding-right: 80px;
+}
+.simbol{
+  width: 12px;
+  height: 12px;
+  border-radius: 2px;  
+  border: .2px solid white;
+}
+.simbol.esencial{
+  background-color: #009fe3;   
+}
+.simbol.deportista{
+  background-color: #009C3D;  
+  
+}
+.simbol.fitness{
+  background-color: #98C21D;
+}
+.simbol.aceptable{
+  background-color: #FECA00;
+}
+.simbol.obeso{
+  background-color: #D76328;
+}
+.caret-down{
+  /* font-size: 40px;
+  position: relative; */
+  width: 15px;
+	height: 10px;
+	background: #fff;
+	position: relative;
+	clip-path: polygon(50% 100%, 0 0, 100% 0);
+}
+
+.porcentaje-container{
+  position: inherit;
+  left: -10px;  
+	text-align: center;
+	display: inline-flex;
+	flex-direction: column;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-bottom: 5px;
+	transition: all .3s ease;
+}
+.porcentaje-container>span{
+  position: absolute;
+  top: -24px;
+}
+/* RAdio button */
+input[type='radio']{
+  appearance: none;
+  border-radius: 50%;
+  border: 8px solid white;
+  width: 15px;
+  height: 15px;
+}
+
+input[type="radio"]:checked::after{
+  display: inline-block;
+  content: "";
+  position: relative;
+  height: 16px;
+  width: 16px;
+  background: white;
+  border: 5.5px solid #8667F0;
+  border-radius: 50%;
+  top: -9.5px;
+  left: -8px;
+}
